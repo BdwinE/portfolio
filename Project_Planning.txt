@@ -1,0 +1,37 @@
+consider using startup/upbeat web personality.
+
+There should be 3 pages
+
+Landing/Home Page
+	-Should give the visitor a quick introduction of yourself.
+	-Should have a profile picture of me
+	-Should contain external links to relevant sites such as to GitHub, linkedIn
+	-Should have Contact button(which draws the most attention)which leads to contact page.
+
+Portfolio Page
+	-Should display my relevant works(perhaps on cards)
+		-The cards should pop off the page
+		-The cards should maintain a fixed height and a 'view more'
+		 if all content doesn't fit in one card
+		-cards should contain attention catching header
+		-cards should contain easy to spot button for GitHub repo 
+		 pertaining to that project
+
+Education page
+	-Should display my education
+		-should contain logo of school
+		-should contain GPA
+		-should contain all relevant CS and math courses completed
+	-Should display relevant certifications
+	-Should display relevant courses and training completed(like on Udemy)-Scratch this for now
+	-Should contain image of my degree
+
+Contact Page
+	-should have my contact info including email and phone
+
+Components
+	-Header
+		-should have links to all pages to the left
+		-should have resume download logo to the right
+	-footer
+		-should have link to all pages

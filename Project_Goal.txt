@@ -1,0 +1,20 @@
+The Goal of this project is to create a portfolio site in
+which to display my skills and projects, and also my education and 
+any applicable certifications.
+
+This site should sell myself as a developer to potential clients
+or hiring manager.
+
+1. WHO is the website for?
+	The website is potential clients and hiring managers
+
+2. WHAT the website is for?
+	Business Goal: create a portfolio site in
+		 which to sell my skills by displaying my projects, and also my education and 
+		 any applicable certifications.
+	User Goal: Quickly determine if I am a good candidate for their project, find relevant 
+		   information quickly. 
+	
+3. Target Audience?
+	Clients: people who want to hire me to develop something for them
+	Hiring managers: People hiring for a company
