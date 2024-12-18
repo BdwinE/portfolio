@@ -1,0 +1,199 @@
+/*
+
+--- 01 TYPOGRAPHY SYSTEM
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-Font Size:
+Med: 2.4rem
+h1: 9.8rem
+
+- Font weights: Med: 500, Semi_Bold: 600, bold: 700
+
+- Line Heights:
+Default: 1 
+small: 1.05
+medium: 1.2
+large: 1.8
+paragraph_default: 1.6
+
+- Letter Spacing:
+
+
+--- 02 Colors
+
+- Primary: #064375
+
+- Tints: 
+
+
+- Shades: #053c69, #babdbf, #a3a5a7
+
+- Accents:
+- Greys: #333, ##f8f9fa
+
+--- 05 Shadows
+  box-shadow: 
+
+
+--- 06 Boarder Radius 
+default: 0.5px
+
+--- 07 White Space
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #f8f9fa;
+
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  width: 100%;
+
+  padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header-left {
+  font-size: 2.4rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-nav {
+}
+
+.nav-links {
+  display: flex;
+  gap: 3.2rem;
+
+  list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  color: #064375;
+}
+
+.header-resume-btn {
+  font-size: 1.8rem;
+}
+
+.header-resume-btn-icon {
+}
+
+/************************************************/
+/* INTRO SECTION */
+/************************************************/
+body .intro-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16rem;
+
+  /* 64+77=141 77 is the height of the header */
+  padding-top: 14.1rem;
+  padding-bottom: 6.4rem;
+}
+
+.intro-left {
+}
+
+.intro-left-heading {
+  font-size: 8.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 4.8rem;
+}
+
+.intro-left-summary {
+  font-size: 3rem;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 16.8rem;
+}
+
+.intro-left-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.btn--unimportant:link,
+.btn--unimportant:visited {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  background-color: #babdbf;
+  padding: 1.2rem 2.6rem;
+  border-radius: 5px;
+
+  transition: all 0.3s;
+}
+.btn--unimportant:hover,
+.btn--unimportant:active {
+  transform: scale(1.05);
+  color: #333;
+  background-color: #a3a5a7;
+}
+
+.btn--important {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+
+  flex-grow: 2;
+  max-width: 32rem;
+  text-align: center;
+}
+
+.intro-right {
+}
+.into-right-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+  background-color: #fff;
+}

@@ -1,0 +1,43 @@
+.container {
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.btn {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+
+  transition: all 0.3s;
+
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.5rem;
+  border-width: 0;
+  background-color: #064375;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: #053c69;
+  cursor: pointer;
+
+  transform: scale(1.05);
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.link:active,
+.link:hover {
+  color: #064375;
+}
